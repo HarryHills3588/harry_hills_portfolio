@@ -1,5 +1,11 @@
+<script setup lang="ts">
+import Navbar from './components/navbar.vue';
+
+</script>
+
 <template>
-  <UApp>
-    <NuxtPage />
-  </UApp>
+  <div>
+    <Navbar/>
+    <NuxtPage/>
+  </div>
 </template>
