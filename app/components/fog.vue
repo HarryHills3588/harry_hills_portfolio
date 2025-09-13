@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <div ref="vantaRef" class="absolute inset-0 z-[-1]"/>
+    <div ref="vantaRef" class="fixed inset-0 z-[-1]"/>
       <div class="flex items-center justify-center h-full w-full">
         <slot class="content-center"/>
       </div>

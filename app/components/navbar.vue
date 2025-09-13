@@ -21,5 +21,5 @@ const items = ref<NavigationMenuItem[]>([
 </script>
 
 <template>
-  <UNavigationMenu :items="items" class="absolute w-full justify-center z-10"  />
+  <UNavigationMenu :items="items" class="relative w-full justify-center z-10"  />
 </template>

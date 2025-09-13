@@ -34,29 +34,27 @@
 </template>
 
 <script setup>
-// defineProps is used to declare the data the component expects to receive.
-// Default values are provided so the component can be rendered for testing.
-defineProps({
-  title: {
-    type: String,
-    default: 'E-commerce Platform'
-  },
-  description: {
-    type: String,
-    default: 'A full-stack e-commerce solution with a modern UI, real-time inventory management, and secure payment processing.'
-  },
-  tags: {
-    type: Array,
-    // The tags prop is an array of objects, allowing for dynamic color and text.
-    default: () => [
-      { name: 'Nuxt.js', color: 'blue' },
-      { name: 'TailwindCSS', color: 'green' },
-      { name: 'Supabase', color: 'purple' }
-    ]
-  },
-  link: {
-    type: String,
-    default: '#'
-  }
-})
+  defineProps({
+    title: {
+      type: String,
+      default: 'E-commerce Platform'
+    },
+    description: {
+      type: String,
+      default: 'A full-stack e-commerce solution with a modern UI, real-time inventory management, and secure payment processing.'
+    },
+    tags: {
+      type: Array,
+      // The tags prop is an array of objects, allowing for dynamic color and text.
+      default: () => [
+        { name: 'Nuxt.js', color: 'primary' },
+        { name: 'TailwindCSS', color: 'secondary' },
+        { name: 'Supabase', color: 'purple' }
+      ]
+    },
+    link: {
+      type: String,
+      default: '#'
+    }
+  })
 </script>
