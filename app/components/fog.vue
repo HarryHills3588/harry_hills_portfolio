@@ -26,7 +26,7 @@ onMounted(async () => {
       midtoneColor: 0xff1f00,
       lowlightColor: 0x2f03ff,
       baseColor: 0xffebeb,
-      blurFactor: 0.9,
+      blurFactor: 0.5,
       zoom: 1,
       speed: 1,
     })
