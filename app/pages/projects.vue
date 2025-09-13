@@ -24,7 +24,9 @@
 </template>
 
 <script setup lang="ts">
-    const { data: projects, pending, error } = await useAsyncData('all-projects', () =>
+import type { ProjectsCollectionItem } from '@nuxt/content';
+
+    const { data: projects, pending, error } = await useAsyncData<ProjectsCollectionItem[]>('all-projects', () =>
       queryCollection('projects').all()
     )
 </script>
