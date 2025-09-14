@@ -1,7 +1,7 @@
 <template>
     <div>
         <Fog>
-            <ProjectViewer></ProjectViewer>
+            <ProjectViewer class="mb-12 w-10/12 p-6"></ProjectViewer>
         </Fog>
     </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <UCard class="w-10/12">
+    <UCard>
         <div v-if="pending">
             <h1>Loading content</h1>
         </div>
@@ -18,7 +18,7 @@ const route = useRoute();
 const projectPath = route.fullPath
 
 const { data: project, pending, error } = await useAsyncData('project', () =>
-    queryCollection('projects').where('path','=',projectPath).first()
+    queryCollection('projects').where('path', '=', projectPath).first()
 )
 </script>
 
