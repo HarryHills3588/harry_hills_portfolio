@@ -24,6 +24,7 @@
       label="View Project"
       trailing-icon="i-heroicons-arrow-right-20-solid"
       class="w-full sm:w-auto"
+      :to="`${project.path}`"
     />
   </UCard>
 </template>

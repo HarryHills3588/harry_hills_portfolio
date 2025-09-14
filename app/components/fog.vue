@@ -22,8 +22,8 @@ onMounted(async () => {
     vantaEffect = VANTA.default({
       el: vantaRef.value,
       THREE: THREE,
-      highlightColor: 0xffab00,
-      midtoneColor: 0xff1f00,
+      highlightColor: 0xDDF4E7,
+      midtoneColor: 0x67C090,
       lowlightColor: 0x2f03ff,
       baseColor: 0xffebeb,
       blurFactor: 0.5,

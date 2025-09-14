@@ -1,6 +1,6 @@
 ---
 title: "Cool Project 1"
-description: "A very cool project I worked on"
+description: "a"
 tags: [
     {
         "name": "something",
@@ -15,4 +15,4 @@ tags: [
 
 # This is a project sample
 
-This is actually **working**
+This is actually **working** This is actually **working** This is actually **working** This is actually **working** This is actually **working** This is actually **working** This is actually **working** This is actually **working** This is actually **working**
