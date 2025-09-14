@@ -9,4 +9,4 @@
 <script lang="ts">
 </script>
 
-<!-- Make sure that if id is not valid, website will 404 -->    
+<!-- Make sure that if id is not valid, website will 404 -->
