@@ -5,7 +5,8 @@
         Who am I?
       </h1>
       <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-10 items-center">
-        <div class="p-4 rounded-lg">
+        
+        <div class="p-4 rounded-lg order-2 sm:order-1">
             <h2 class="text-2xl font-semibold mb-2">
                 About Me
             </h2>
@@ -17,7 +18,7 @@
             <NuxtLink class="underline" :to="'/resume'">Resume</NuxtLink>
         </div>
 
-        <div class=" p-4 flex justify-center">
+        <div class="p-4 flex justify-center order-1 sm:order-2">
           <img 
             src="~/assets/img/me.jpeg" 
             alt="Harry Hillsdownley" 
