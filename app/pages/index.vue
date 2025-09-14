@@ -1,7 +1,7 @@
 <template>
-    <div>
-        <Fog class="h-screen">
-            <UCard class="flex items-center h-1/3 ">
+    <div class="h-full">
+        <Fog class="h-full">
+            <UCard class="flex items-center h-1/2 ">
                 <div>
                     <h1 class="text-2xl font-bold">
                         If it ever goes down hill, I'm down
@@ -16,9 +16,4 @@
             </UCard>
         </Fog>
     </div>
-    <section class="bg-primary p-6">
-        <h1 class="bg-secondary">
-            Hello world
-        </h1>
-    </section>
 </template>
