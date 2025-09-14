@@ -1,9 +1,9 @@
 <template>
   <div class="relative">
-    <div ref="vantaRef" class="fixed inset-0 z-[-1]"/>
-      <div class="flex items-center justify-center h-full w-full">
-        <slot class="content-center"/>
-      </div>
+    <div ref="vantaRef" class="fixed inset-0 z-[-1]" />
+    <div class="flex items-center justify-center h-full w-full">
+      <slot class="content-center" />
+    </div>
   </div>
 </template>
 
@@ -27,8 +27,8 @@ onMounted(async () => {
       lowlightColor: 0x2f03ff,
       baseColor: 0xffebeb,
       blurFactor: 0.5,
-      zoom: 1,
-      speed: 1,
+      zoom: 0.2,
+      speed: 0.8,
     })
   }
 })
