@@ -12,6 +12,7 @@ tags: []
         * ~throw 404 here~
 * write artciles on projects
 * Tagging Mechanism for projects (Non-MVP)
-* Resume section
+* Resume section (Non-MVP)
+    * Non MVP resume section
 * ~Dark theme prose for tailwind~
 * 404 page
