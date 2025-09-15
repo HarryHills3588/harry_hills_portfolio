@@ -1,7 +1,7 @@
 <template>
     <div>
         <Fog>
-            <ProjectViewer class="mb-12 w-10/12 p-6"></ProjectViewer>
+            <ProjectViewer class="mb-12 mt-12 p-6 prose max-w-none w-8/12"></ProjectViewer>
         </Fog>
     </div>
 </template>
