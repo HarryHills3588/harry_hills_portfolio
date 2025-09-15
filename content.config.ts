@@ -5,6 +5,10 @@ export default defineContentConfig({
     projects: defineCollection({
       type: 'page',
       source: 'projects/*.md'
+    }),
+    resume: defineCollection({
+      type: 'page',
+      source: 'resume/*.md'
     })
   }
 })
