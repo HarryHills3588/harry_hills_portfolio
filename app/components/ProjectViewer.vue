@@ -23,6 +23,14 @@ const projectPath = route.fullPath
 const { data: project, pending, error } = await useAsyncData('project', () =>
     queryCollection('projects').where('path', '=', projectPath).first()
 )
+
+if (error.value || !project.value) {
+    throw showError({
+        statusCode: 404,
+        statusMessage: 'Project Not Found',
+        message: `Sorry, we couldn't find a project.`
+    });
+}
 </script>
 
 <!-- make sure to achnowledge when returning is empty -->
