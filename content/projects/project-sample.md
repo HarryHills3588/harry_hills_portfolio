@@ -1,18 +1,16 @@
 ---
-title: "Cool Project 1"
-description: "a"
-tags: [
-    {
-        "name": "something",
-        "color": "primary"
-    },
-    {
-        "name": "special",
-        "color": "secondary"
-    }
-]
+title: "TO-DOS"
+description: "To-do's for project"
+tags: []
 ---
 
-# This is a project sample
+# TODOs for Project
 
-This is actually **working** This is actually **working** This is actually **working** This is actually **working** This is actually **working** This is actually **working** This is actually **working** This is actually **working** This is actually **working**
+* Edit project colors / Theme
+* finish viewer error handling
+    * when project list is returning empty / viewer to invalid link
+        * throw 404 here
+* write artciles on projects
+* Tagging Mechanism for projects (Non-MVP)
+* Resume section
+* Dark theme prose for tailwind

@@ -7,6 +7,9 @@
             <h1>Error</h1>
         </div>
         <div v-else-if="project">
+            <UButton leading-icon="i-lucide-arrow-left" class="mb-10" :variant="'link'" :to="'/projects'">
+                Projects
+            </UButton>
             <ContentRenderer :value="project"></ContentRenderer>
         </div>
     </UCard>
