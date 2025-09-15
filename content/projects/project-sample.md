@@ -13,5 +13,5 @@ tags: []
 * write artciles on projects
 * Tagging Mechanism for projects (Non-MVP)
 * Resume section
-* Dark theme prose for tailwind
+* ~Dark theme prose for tailwind~
 * 404 page
