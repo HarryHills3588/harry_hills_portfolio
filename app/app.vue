@@ -4,9 +4,9 @@ import Navbar from './components/navbar.vue';
 
 <template>
   <div class="h-screen flex flex-col">
-    <Navbar class="flex-shrink-0" />
+    <Navbar />
 
-    <main class="flex-grow overflow-y-auto">
+    <main class="flex-grow">
       <NuxtPage />
     </main>
   </div>
