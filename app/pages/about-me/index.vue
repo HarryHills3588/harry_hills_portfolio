@@ -25,3 +25,9 @@
     </UCard>
   </Fog>
 </template>
+
+<script setup lang="ts">
+useHead({
+  title: "About Me"
+})
+</script>

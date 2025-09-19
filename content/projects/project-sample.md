@@ -15,10 +15,10 @@ tags: []
 * ~Resume section (Non-MVP)~
     * ~Non MVP resume section~
 * ~Dark theme prose for tailwind~
-* 404 page
+* ~404 page~
 * Update resume (inform Hrach)
     * Pass resume to serverside  (Non-MVP)
     * ~Add certificates link~
     * ~download functionality~
 * Fab Icon 
-* Use Head
+* ~Use Head~

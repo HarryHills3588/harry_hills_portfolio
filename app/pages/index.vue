@@ -17,3 +17,9 @@
         </Fog>
     </div>
 </template>
+
+<script setup lang="ts">
+useHead({
+    title: "Home - Harry Hillsdownley"
+})
+</script>"

@@ -31,6 +31,12 @@ if (error.value || !project.value) {
         message: `Sorry, we couldn't find a project.`
     });
 }
+const pageTitle = computed(() => project.value?.title ?? "Default Project Title")
+
+useHead({
+    title: pageTitle.value + " - My Projects"
+})
+
 </script>
 
 <!-- make sure to achnowledge when returning is empty -->

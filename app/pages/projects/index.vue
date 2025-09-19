@@ -29,4 +29,8 @@ import type { ProjectsCollectionItem } from '@nuxt/content';
 const { data: projects, pending, error } = await useAsyncData<ProjectsCollectionItem[]>('all-projects', () =>
   queryCollection('projects').all()
 )
+
+useHead({
+  title: "My Projects"
+})
 </script>
