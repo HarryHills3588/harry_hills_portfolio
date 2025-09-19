@@ -7,10 +7,14 @@
             <h1>Error</h1>
         </div>
         <div v-else-if="project">
-            <UButton leading-icon="i-lucide-arrow-left" class="mb-10" :variant="'link'" :to="'/projects'">
+            <UButton leading-icon="i-lucide-arrow-left"
+                class="mb-10 text-[var(--slate-dark)]  dark:text-[var(--slate-light)] dark:hover:text-[var(--slate-hover)]"
+                :variant="'link'" :to="'/projects'">
                 Projects
             </UButton>
-            <ContentRenderer :value="project"></ContentRenderer>
+            <ContentRenderer :value="project"
+                class="text-[var(--slate-dark)]  dark:text-[var(--slate-light)] dark:prose-strong:text-[var(--slate-light)] dark:prose-a:text-[var(--slate-light)] dark:prose-headings:text-[var(--slate-light)]">
+            </ContentRenderer>
         </div>
     </UCard>
 </template>

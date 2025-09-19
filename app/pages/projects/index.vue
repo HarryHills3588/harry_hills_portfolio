@@ -2,7 +2,7 @@
   <div>
     <Fog>
       <div class="container mx-auto px-4 py-12">
-        <h1 class="text-4xl font-bold mb-8">My Projects</h1>
+        <h1 class="text-4xl font-bold mb-8 text-[var(--slate-dark)]">My Projects</h1>
 
         <div v-if="pending" class="text-center">Loading projects...</div>
 

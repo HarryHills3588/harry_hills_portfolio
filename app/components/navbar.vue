@@ -4,12 +4,12 @@ import type { DropdownMenuItem, NavigationMenuItem } from '@nuxt/ui'
 const items = ref<NavigationMenuItem[]>([
   {
     label: 'Home',
-    icon: 'i-lucide-book-open',
+    icon: 'lucide:house',
     to: '/',
   },
   {
     label: 'About Me',
-    icon: 'i-lucide-database',
+    icon: 'i-lucide-book-open',
     to: '/about-me',
   },
   {
@@ -39,7 +39,7 @@ const dropdownItems = ref<DropdownMenuItem[][]>([
 </script>
 
 <template>
-  <div class="flex justify-between items-center px-4 py-2">
+  <div class="flex justify-between items-center px-4 py-2 text-[var(--slate-dark)]">
     <!-- Logo -->
     <NuxtLink to="/" class="text-xl font-bold font-['Meow_Script']">
       H.Hillsdownley
@@ -47,7 +47,7 @@ const dropdownItems = ref<DropdownMenuItem[][]>([
 
     <!-- Desktop Navigation -->
     <div class="hidden md:flex">
-      <UNavigationMenu :items="items" />
+      <UNavigationMenu :items="items" :variant="'link'" />
     </div>
 
     <!-- Mobile Dropdown -->

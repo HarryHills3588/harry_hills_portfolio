@@ -6,7 +6,7 @@ tags: []
 
 # TODOs for Project
 
-* Edit project colors / Theme
+* ~Edit project colors / Theme~
 * ~finish viewer error handling~
     * ~when project list is returning empty / viewer to invalid link~
         * ~throw 404 here~
