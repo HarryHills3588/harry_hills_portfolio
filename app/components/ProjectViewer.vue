@@ -1,5 +1,5 @@
 <template>
-    <UCard :variant="'soft'" class="bg-[var(--white)]">
+    <UCard>
         <div v-if="pending">
             <h1>Loading content</h1>
         </div>
