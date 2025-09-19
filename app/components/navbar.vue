@@ -4,12 +4,12 @@ import type { DropdownMenuItem, NavigationMenuItem } from '@nuxt/ui'
 const items = ref<NavigationMenuItem[]>([
   {
     label: 'Home',
-    icon: 'i-lucide-book-open',
+    icon: 'lucide:house',
     to: '/',
   },
   {
     label: 'About Me',
-    icon: 'i-lucide-database',
+    icon: 'i-lucide-book-open',
     to: '/about-me',
   },
   {
