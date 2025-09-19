@@ -20,5 +20,5 @@ tags: []
     * Pass resume to serverside  (Non-MVP)
     * ~Add certificates link~
     * ~download functionality~
-* Fab Icon 
+* ~Fab Icon~
 * ~Use Head~
