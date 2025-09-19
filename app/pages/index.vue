@@ -1,7 +1,7 @@
 <template>
     <div class="h-full">
         <Fog class="h-full">
-            <UCard class="flex items-center h-1/2 ">
+            <UCard class="flex items-center h-1/2 bg-[var(--white)] text-[var(--slate-dark)]" :variant="'soft'">
                 <div>
                     <h1 class="text-2xl font-bold">
                         If it ever goes down hill, I'm down

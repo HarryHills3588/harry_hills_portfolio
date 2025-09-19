@@ -46,8 +46,8 @@ const dropdownItems = ref<DropdownMenuItem[][]>([
     </NuxtLink>
 
     <!-- Desktop Navigation -->
-    <div class="hidden md:flex">
-      <UNavigationMenu :items="items" />
+    <div class="hidden md:flex  text-[var(--slate-dark)]">
+      <UNavigationMenu :items="items" :variant="'link'" />
     </div>
 
     <!-- Mobile Dropdown -->
