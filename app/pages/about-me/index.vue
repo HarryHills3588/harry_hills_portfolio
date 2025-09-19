@@ -1,12 +1,12 @@
 <template>
   <Fog>
-    <UCard class="h-10/12 w-10/12 pr-6 pl-6 pb-6 mt-12">
-      <h1 class="text-4xl font-bold mb-6 mt-6">
+    <UCard class="h-10/12 w-10/12 pr-6 pl-6 pb-6 mt-12 bg-[var(--white)]" :variant="'soft'">
+      <h1 class="text-4xl font-bold mb-6 mt-6 text-[var(--slate-dark)]">
         Who am I?
       </h1>
       <div class="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-10 items-center">
 
-        <div class="p-4 rounded-lg order-2 sm:order-1">
+        <div class="p-4 rounded-lg order-2 sm:order-1 text-[var(--slate-dark)]">
           <h2 class="text-2xl font-semibold mb-2">
             About Me
           </h2>

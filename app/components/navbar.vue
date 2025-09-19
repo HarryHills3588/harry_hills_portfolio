@@ -39,14 +39,14 @@ const dropdownItems = ref<DropdownMenuItem[][]>([
 </script>
 
 <template>
-  <div class="flex justify-between items-center px-4 py-2">
+  <div class="flex justify-between items-center px-4 py-2 text-[var(--slate-dark)]">
     <!-- Logo -->
     <NuxtLink to="/" class="text-xl font-bold font-['Meow_Script']">
       H.Hillsdownley
     </NuxtLink>
 
     <!-- Desktop Navigation -->
-    <div class="hidden md:flex  text-[var(--slate-dark)]">
+    <div class="hidden md:flex">
       <UNavigationMenu :items="items" :variant="'link'" />
     </div>
 
