@@ -12,6 +12,14 @@ tags: []
         * ~throw 404 here~
 * write artciles on projects
 * Tagging Mechanism for projects (Non-MVP)
-* Resume section
+* Resume section (Non-MVP)
+    * Non MVP resume section
 * ~Dark theme prose for tailwind~
 * 404 page
+* Update resume (inform Hrach)
+    * Pass resume to serverside  (Non-MVP)
+    * Add certificates link
+    * share functionality
+    * ~download functionality~
+* Fab Icon 
+* Use Head
