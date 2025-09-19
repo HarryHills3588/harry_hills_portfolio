@@ -6,7 +6,8 @@
                 <div class="w-full items-center justify-end flex flex-row space-x-2 mb-10">
                     <div class="w-full flex flex-row justify-between text-md">
                         <span>
-                            <UButton leading-icon="i-lucide-arrow-left" :variant="'link'" :to="'/about-me'">
+                            <UButton leading-icon="i-lucide-arrow-left" :variant="'link'" :to="'/about-me'"
+                                class="text-[var(--slate-dark)] dark:text-[var(--slate-light)] hover:text-[var(--slate-hover)]">
                                 About Me
                             </UButton>
                         </span>

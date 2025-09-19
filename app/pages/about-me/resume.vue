@@ -1,5 +1,5 @@
 <template>
-    <ResumeViewer :resume="resume"></ResumeViewer>
+    <ResumeViewer :resume="resume" class="text-[var(--slate-dark)] dark:text-[var(--slate-light)]"></ResumeViewer>
 </template>
 
 <script setup lang="ts">
