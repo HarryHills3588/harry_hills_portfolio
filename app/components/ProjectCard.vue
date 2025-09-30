@@ -1,12 +1,12 @@
 <template>
   <UCard
-    class="group w-full max-w-sm overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 bg-[var(--white)]"
+    class="flex flex-col group w-full max-w-sm overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-1 bg-[var(--white)]"
     :variant="'soft'">
-    <h2 class="text-2xl font-bold text-[var(--slate-dark)] mb-2">
+    <h2 class="text-2xl font-bold text-[var(--slate-dark)] mb-2 line-clamp-2">
       {{ project.title }}
     </h2>
 
-    <p class="text-[var(--slate-dark)] text-base leading-relaxed">
+    <p class="text-[var(--slate-dark)] text-base leading-relaxed line-clamp-2">
       {{ project.description }}
     </p>
 
