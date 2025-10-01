@@ -18,16 +18,16 @@ tags: [
 
 ## Project Summary
 
-Built a production-ready machine learning pipeline to automatically classify 30,000 celestial objects from astronomical survey data, achieving **97% accuracy** through systematic data preprocessing, feature engineering, and model optimization.
+Built a production-ready machine learning pipeline to automatically classify 30,000 celestial objects from astronomical survey data, achieving **97% accuracy** through data preprocessing, feature engineering, and model optimization.
 
 **Tech Stack:** Python, scikit-learn, pandas, NumPy, matplotlib  
-**Key Skills:** Data Cleaning, Feature Engineering, Model Selection, Cross-Validation, Performance Optimization
+**Skills:** Data Cleaning, Feature Engineering, Model Selection, Cross-Validation, Performance Optimization
 
 ---
 
 ## Business Problem
 
-Astronomical surveys collect millions of observations that need classification. Manual review is impractical at scale. This project demonstrates how to build a robust automated classifier while handling real-world data challenges: class imbalance, duplicate records, outliers, and high dimensionality.
+Astronomical surveys collect millions of observations that need classification. Manual review is impractical at scale. This project demonstrates how I built an automated classifier while handling real-world data challenges: class imbalance, duplicate records, outliers, and high dimensionality.
 
 ---
 
@@ -35,7 +35,7 @@ Astronomical surveys collect millions of observations that need classification. 
 
 ### 1. Data Quality & Cleaning
 
-**Challenges Identified:**
+**Challenges in the Dataset:**
 - 2,569 duplicate entries (8.5% of dataset)
 - Severe class imbalance: 59% galaxies, 22% stars, 19% quasars
 - Irrelevant features with constant values
@@ -61,27 +61,27 @@ Astronomical surveys collect millions of observations that need classification. 
 
 **Wrapper Method (Sequential Forward Selection):** Tested feature subsets specific to each classifier, revealing that different models benefit from different feature combinations
 
-**Business Impact:** Reduced features from 10 to 3 with only 2% accuracy loss, dramatically improving training speed—critical for production deployment and experimentation.
+**Impact of Feature Selection:** Reduced features from 10 to 3 with only 2% accuracy loss, improving training time for production deployment and experimentation.
 
 ### 3. Model Development & Evaluation
 
 **Systematic Comparison of 6 Classifiers:**
 
-| Model | Accuracy | Training Time | Production Fit |
-|-------|----------|---------------|----------------|
-| Linear SVM | 97% | 3.4s | ⭐⭐⭐ Best |
-| RBF SVM | 97% | 4.1s | ⭐⭐⭐ Best |
-| Decision Tree | 96% | 0.3s | ⭐⭐ Good |
-| KNN | 95% | 0.2s | ⭐ Fair |
-| Polynomial SVM | 96% | 5.8s | ⭐ Fair |
+| Model | Accuracy | Training Time |
+|-------|----------|---------------|
+| Linear SVM | 97% | 3.4s | 
+| RBF SVM | 97% | 4.1s | 
+| Decision Tree | 96% | 0.3s | 
+| KNN | 95% | 0.2s | 
+| Polynomial SVM | 96% | 5.8s | 
 
 **Evaluation Strategy:**
-- 5-fold cross-validation for robust performance estimates
+- 5-fold cross-validation for accurate performance estimates
 - Multiple metrics to handle class imbalance
-- Learning curve analysis to optimize training set size
+- Learning curve analysis
 - ROC curve analysis for per-class performance insights
 
-**Key Finding:** Linear and RBF SVMs achieved identical 97% accuracy, but Linear SVM trains 20% faster—making it the optimal choice for production.
+**Findings:** Linear and RBF SVMs achieved identical 97% accuracy, but Linear SVM trains 20% faster—making it the optimal choice for production.
 
 ### 4. Model Interpretation & Insights
 
@@ -89,18 +89,15 @@ Astronomical surveys collect millions of observations that need classification. 
 - Near-perfect separation (>99% AUC) between stars and other objects
 - Main classification challenge: distinguishing galaxies from quasars at intermediate redshift values
 - This insight points to specific areas for future improvement
-
-**Why This Matters:** Understanding *where* models struggle is as important as overall accuracy. These insights guide feature engineering and data collection priorities.
-
 ---
 
-## Key Achievements
+## Achievements
 
-✅ **97% classification accuracy** on imbalanced dataset  
-✅ **67% dimensionality reduction** while maintaining performance  
-✅ **Identified optimal model** through systematic comparison  
-✅ **Production-ready pipeline** with proper cross-validation  
-✅ **Documented trade-offs** between accuracy, speed, and complexity
+**97% classification accuracy** on imbalanced dataset  
+**67% dimensionality reduction** while maintaining performance  
+**Identified optimal model** through model comparisons
+**Production-ready pipeline** with proper cross-validation  
+**Documented trade-offs** between accuracy, speed, and complexity
 
 ---
 
@@ -128,25 +125,9 @@ Astronomical surveys collect millions of observations that need classification. 
 
 ---
 
-## Business Value
-
-This project demonstrates core data science competencies that translate directly to business problems:
-
-**1. Data Quality Focus:** Real-world data is messy. I systematically identified and resolved quality issues before modeling.
-
-**2. Metric Selection:** Chose evaluation metrics appropriate for the problem (class imbalance), not just default accuracy.
-
-**3. Efficiency Optimization:** Feature selection reduced computational costs while maintaining performance—critical for production deployment.
-
-**4. Interpretability:** ROC analysis and feature importance provide actionable insights, not just black-box predictions.
-
-**5. Documentation:** Clear methodology and reproducible results enable team collaboration and model handoff.
-
----
-
 ## What I Learned
 
-**Technical Skills:**
+**Skills:**
 - Advanced feature engineering techniques for imbalanced datasets
 - Trade-offs between model complexity, accuracy, and training time
 - How to select appropriate evaluation metrics based on business context
@@ -159,25 +140,6 @@ This project demonstrates core data science competencies that translate directly
 - Default hyperparameters often perform surprisingly well with proper preprocessing
 
 ---
-
-## Technologies Used
-
-**Core Libraries:**
-- **scikit-learn:** Model implementation, cross-validation, metrics
-- **pandas:** Data manipulation and analysis
-- **NumPy:** Numerical computations and transformations
-- **matplotlib:** Visualization and exploratory analysis
-- **mlxtend:** Advanced feature selection methods
-
-**Key Techniques:**
-- Cross-validation (K-Fold, Stratified)
-- Feature selection (Filter and Wrapper methods)
-- Support Vector Machines (multiple kernels)
-- ROC analysis for multi-class problems
-- Learning curve analysis
-
----
-
 ## Future Improvements
 
 If continuing this project, I would:
@@ -187,7 +149,3 @@ If continuing this project, I would:
 3. **Deploy model as REST API** for real-time classification
 4. **Add automated retraining pipeline** to handle data drift
 5. **Create interactive dashboard** for non-technical stakeholders
-
----
-
-**Note:** This project demonstrates end-to-end machine learning workflow from messy real-world data to production-ready classifier, emphasizing practical skills that transfer directly to business applications.

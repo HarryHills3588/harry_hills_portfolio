@@ -16,7 +16,7 @@ tags: [
 
 # Text Analysis: What Makes a Great Textbook?
 
-As part of a collaborative research project, I explored how **data science and machine learning techniques** can be applied to the domain of education—specifically, what textual features distinguish highly rated textbooks. Our study, *“Text Analysis: What Makes a Great Textbook”* (2025), combined **natural language processing (NLP), high-performance computing (HPC), and statistical analysis** to uncover patterns across more than 1,300 academic textbooks.
+As part of a collaborative research project, I explored how **data science and machine learning techniques** can be applied to identify what textual features distinguish highly rated textbooks. Our study, *“Text Analysis: What Makes a Great Textbook”* (2025), combined **natural language processing (NLP), high-performance computing (HPC), and statistical analysis** to uncover patterns across more than 1,300 academic textbooks.
 
 ---
 
@@ -34,7 +34,7 @@ We set out to answer:
 
 ## Data Collection at Scale
 
-We sourced over **1,600 openly licensed textbooks** from the University of Minnesota’s *Open Textbook Library*. To build a **clean, structured dataset**, we engineered a two-stage pipeline:
+We sourced over **1,600 openly licensed textbooks** from the University of Minnesota’s *Open Textbook Library*. To build a **structured ledger**, we engineered a two-stage pipeline:
 
 1. **API Crawling & Scraping** – Extracted metadata (title, author, subject, ratings) and content links using Python’s `requests`, `xmltodict`, and `BeautifulSoup`.
 2. **Content Acquisition** – Parsed PDFs into raw text with `pypdf`, applying quality control filters to remove incomplete or invalid files.
@@ -104,5 +104,3 @@ Beyond the research question itself, this project demonstrates how **data scienc
 * **Scalable computing** (parallel NLP processing on HPC).
 * **Statistical rigor** (hypothesis testing, p-values for feature differences).
 * **Visualization & storytelling** (clear communication of results).
-
-For me, this was a valuable opportunity to merge **technical computing** with **educational insights**, showing how data-driven methods can shed light on long-standing questions in pedagogy.

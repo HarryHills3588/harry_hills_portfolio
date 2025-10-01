@@ -19,9 +19,7 @@ tags: [
 
 # Sentiment Analysis for Movie Reviews using Hidden Markov Models
 
-Natural Language Processing (NLP) has become one of the most dynamic areas of machine learning, particularly with the rise of large language models (LLMs). One of its core applications is **sentiment analysis**—understanding whether text conveys a positive, negative, or neutral opinion.
-
-In my project, I explored the use of a **Hidden Markov Model (HMM)** for sentiment analysis of movie reviews, applying a probabilistic, sequence-based approach to classify reviews from the IMDB dataset.
+In this project, I explored the use of a **Hidden Markov Model (HMM)** for sentiment analysis of movie reviews, applying a probabilistic, sequence-based approach to classify reviews from the IMDB dataset.
 
 ---
 
@@ -57,24 +55,21 @@ The key improvement came from **custom emission probability calculations** using
 
 ---
 
-## Reflections
+## What I Learned
 
 Although HMMs cannot compete with modern neural architectures in sentiment analysis, this project highlighted important ML engineering lessons:
 
-* The value of **probabilistic modeling** for sequence data.
 * How **domain-specific lexicons** and feature engineering can improve classical models.
 * The trade-offs between **simplicity and expressiveness** in model choice.
 
-I see HMMs not as a competitor to transformers, but as a potential **supplementary layer** in hybrid models—combining probabilistic structure with deep contextual understanding.
+---
+
+**Tech Stack:** `hmmlearn`, NLP Pipelines (Spacy), AFINN sentiment lexicon.
+**Dataset:** IMDB Movie Reviews (50,000 labeled reviews).
 
 ---
 
-✅ **Tech Stack:** Python 3.9, `hmmlearn`, Regex preprocessing, AFINN sentiment lexicon.
-✅ **Dataset:** IMDB Movie Reviews (50,000 labeled reviews).
-
----
-
-This project demonstrates my ability to:
+This project taught me to:
 
 * Build and evaluate **probabilistic models** from scratch.
 * Engineer **custom probability matrices** for real-world text data.
