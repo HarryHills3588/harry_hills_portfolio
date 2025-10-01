@@ -10,9 +10,9 @@
       {{ project.description }}
     </p>
 
-    <div class="flex flex-wrap gap-2 mb-6">
-      <UBadge v-for="tag in projectTags" :key="tag.name" :label="tag.name" :color="tag.color" variant="subtle"
-        size="md"></UBadge>
+    <div class="flex flex-wrap gap-2 mb-6 mt-2">
+      <Badge v-for="tag in projectTags" :key="tag.name" :label="tag.name" variant="outline" size="sm">
+      </Badge>
     </div>
 
     <UButton label="View Project" trailing-icon="i-heroicons-arrow-right-20-solid"
