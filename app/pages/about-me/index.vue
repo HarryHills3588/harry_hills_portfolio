@@ -11,11 +11,19 @@
             About Me
           </h2>
           <p>
-            Hi! I'm Harry, a third-year Computer Science student passionate about building
-            web applications, data-driven projects, and exploring AI technologies. I enjoy
-            turning complex problems into simple, scalable solutions.
+            I am a Computer Science student who is passionat eabout AI, Machine Learning, and Data Science.I enjoy
+            working with machine learning algorithms to find solutions to complex problems, and researching the most
+            effective
+            solution to a problem. <br /><br />
+
+            My experience includes AI Engineering, natural language analysis to uncover insights, and building pipelines
+            around models. I am particularly interested in using data science and scalable ML engineering to create
+            impactful solutions
+            to real-world problems.
           </p>
-          <NuxtLink class="underline" :to="'/about-me/resume'">Resume</NuxtLink>
+          <div class="pt-2">
+            <NuxtLink class="underline" :to="'/about-me/resume'">Resume</NuxtLink>
+          </div>
         </div>
 
         <div class="p-4 flex justify-center order-1 sm:order-2">
