@@ -3,7 +3,7 @@ title: "Survey Paper on The Current Landscape of IoT Security"
 description: "The Current Landscape of IoT Security, a Paper Across Novel Methods in the Field"
 tags: [
     {
-        name: Reseach Skills,
+        name: Research Skills,
         color: Yellow
     }
 ]

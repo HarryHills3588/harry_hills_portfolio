@@ -56,10 +56,15 @@ const variantClasses = {
     },
     outline: {
         default: "border border-gray-800 text-gray-800",
-        "Kafka": "border border-red-400 text-red-700",
-        "SciKit Learn": "border border-blue-400 text-blue-700",
-        "Pandas": "border border-green-400 text-green-700",
-        "Numpy": "border border-amber-400 text-amber-700",
+        "Kafka": "border border-slate-400 text-slate-700 bg-slate-50",
+        "SciKit-Learn": "border border-orange-400 text-orange-700 bg-orange-50",
+        "Microservices": "border border-green-400 text-green-700 bg-green-50",
+        "Data Analysis": "border border-rose-400 text-rose-700 bg-rose-50",
+        "Spacy": "border border-blue-400 text-blue-700 bg-blue-50",
+        "Research Skills": "border border-yellow-400 text-yellow-700 bg-yellow-50",
+        "Model Deployment": "border border-emerald-400 text-emerald-700 bg-emerald-50",
+        "ML Engineering": "border border-teal-400 text-teal-700 bg-teal-50",
+        "Model Development": "border border-indigo-400 text-indigo-700 bg-indigo-50",
     },
 }
 </script>
