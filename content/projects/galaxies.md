@@ -1,13 +1,13 @@
 ---
-title: "Interstellar object prediction using SVMs"
-description: "Using Machine Learning to determine how accurate the forecast for today is"
+title: "Interstellar Object Prediction using SVMs"
+description: "An end-to-end machine learning project using support vector machines"
 tags: [
     {
         "name": "SciKit-Learn",
         "color": "primary"
     },
     {
-        "name": "Pandas",
+        "name": "ML Engineering",
         "color": "secondary"
     }
 ]

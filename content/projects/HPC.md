@@ -1,13 +1,13 @@
 ---
-title: "High Performance Computing Project"
-description: "Using Hidden Markov Models to predict sentiment for movie reviews"
+title: "High Performance Computing Research Project"
+description: "Using NLP and data analysis to uncover what makes a highly-rated textbook"
 tags: [
     {
-        "name": "SciKit Learn",
+        "name": "Spacy",
         "color": "primary"
     },
     {
-        "name": "Numpy",
+        "name": "Data Analysis",
         "color": "secondary"
     }
 ]

@@ -7,7 +7,7 @@ tags: [
         "color": "primary"
     },
     {
-        "name": "Python",
+        "name": "Microservices",
         "color": "secondary"
     }
 ]

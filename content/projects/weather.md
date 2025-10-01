@@ -7,7 +7,7 @@ tags: [
         "color": "primary"
     },
     {
-        "name": "Pandas",
+        "name": "Model Deployment",
         "color": "secondary"
     }
 ]
