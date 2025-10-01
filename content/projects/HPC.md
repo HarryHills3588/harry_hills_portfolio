@@ -12,7 +12,7 @@ tags: [
     }
 ]
 ---
-<a href="/project-pdfs/ResearchReport.pdf" target="_blank">Download Report</a>
+<a href="/project-pdfs/ResearchReport.pdf" target="_blank">View Report</a>
 
 # Text Analysis: What Makes a Great Textbook?
 

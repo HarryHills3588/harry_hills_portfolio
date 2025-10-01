@@ -12,7 +12,7 @@ tags: [
     }
 ]
 ---
-<a href="/project-pdfs/InterstellarClassification.pdf" target="_blank">Download Report</a>
+<a href="/project-pdfs/InterstellarClassification.pdf" target="_blank">View Report</a>
 
 # Classifying Stars, Galaxies, and Quasars: An End-to-End ML Project
 

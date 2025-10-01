@@ -13,7 +13,7 @@ tags: [
 ]
 ---
 
-<a href="/project-pdfs/SentimentAnalysis.pdf" target="_blank">Download Report</a>
+<a href="/project-pdfs/SentimentAnalysis.pdf" target="_blank">View Report</a>
 
 ---
 

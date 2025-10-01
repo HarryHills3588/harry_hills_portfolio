@@ -8,7 +8,7 @@ tags: [
     }
 ]
 ---
-<a href="/project-pdfs/SurveyPaper.pdf" target="_blank">Download Report</a>
+<a href="/project-pdfs/SurveyPaper.pdf" target="_blank">View Report</a>
 
 # The Current Landscape of IoT Security: A Survey of Emerging Methods
 
