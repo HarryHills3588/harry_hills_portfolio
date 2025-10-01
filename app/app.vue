@@ -3,6 +3,7 @@ import Navbar from './components/navbar.vue';
 </script>
 
 <template>
+  <Analytics />
   <div class="h-screen flex flex-col">
     <Navbar />
 
