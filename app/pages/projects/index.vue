@@ -14,9 +14,7 @@
         </div>
 
         <div v-else class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div v-for="project in projects">
-            <ProjectCard :project="project"></ProjectCard>
-          </div>
+          <ProjectCard v-for="project in projects" :key="project.path" :project="project" />
         </div>
       </div>
     </Fog>

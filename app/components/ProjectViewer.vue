@@ -13,7 +13,7 @@
                 Projects
             </UButton>
             <ContentRenderer :value="project"
-                class="text-[var(--slate-dark)]  dark:text-[var(--slate-light)] dark:prose-strong:text-[var(--slate-light)] dark:prose-a:text-[var(--slate-light)] dark:prose-headings:text-[var(--slate-light)]">
+                class="text-[var(--slate-dark)]  dark:text-[var(--slate-light)] dark:prose-strong:text-[var(--slate-light)] dark:prose-a:text-[var(--slate-light)] dark:prose-headings:text-[var(--slate-light)] dark:prose-code:text-[var(--slate-light)]">
             </ContentRenderer>
         </div>
     </UCard>
