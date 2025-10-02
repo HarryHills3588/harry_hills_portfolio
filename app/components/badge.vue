@@ -65,6 +65,8 @@ const variantClasses = {
         "Model Deployment": "border border-emerald-400 text-emerald-700 bg-emerald-50",
         "ML Engineering": "border border-teal-400 text-teal-700 bg-teal-50",
         "Model Development": "border border-indigo-400 text-indigo-700 bg-indigo-50",
+        "AI Engineering": "border border-fuchsia-400 text-fuchsia-700 bg-fuchsia-50",
+        "SWE": "border border-cyan-400 text-cyan-700 bg-cyan-50",
     },
 }
 </script>

@@ -11,7 +11,7 @@
             About Me
           </h2>
           <p>
-            I am a Computer Science student who is passionat eabout AI, Machine Learning, and Data Science.I enjoy
+            I am a Computer Science student who is passionat eabout AI, Machine Learning, and Data Science. I enjoy
             working with machine learning algorithms to find solutions to complex problems, and researching the most
             effective
             solution to a problem. <br /><br />
