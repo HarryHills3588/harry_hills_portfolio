@@ -5,4 +5,4 @@ Feel Free to check it out at https://harryhills.com
 
 ---
 ## TODOs
-[] add peer leadership award for my internship in the resume seciton
+[] add peer leadership award for my internship in the resume section
