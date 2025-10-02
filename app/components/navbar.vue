@@ -47,13 +47,16 @@ const dropdownItems = ref<DropdownMenuItem[][]>([
 
     <!-- Desktop Navigation -->
     <div class="hidden md:flex">
-      <UNavigationMenu :items="items" :variant="'link'" />
+      <UNavigationMenu :items="items" :variant="'link'" :ui="{
+        linkLabel: 'text-[var(--slate-dark)] dark:text-[var(--slate-dark)]',
+      }" />
     </div>
 
     <!-- Mobile Dropdown -->
     <div class="flex md:hidden">
       <UDropdownMenu :items="dropdownItems" :ui="{ content: 'w-48' }">
-        <UButton icon="i-lucide-menu" color="neutral" variant="ghost" />
+        <UButton icon="i-lucide-menu" variant="ghost"
+          :ui="{ leadingIcon: 'var(--slate-dark) dark:var(--slate-dark)' }" />
       </UDropdownMenu>
     </div>
   </div>
